@@ -19,7 +19,7 @@
  */
 
 import QtQuick 2.4
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import Ubuntu.Settings.Components 0.1
 import "dateExt.js" as DateExt
 import "Calendar.js" as Cal
@@ -325,12 +325,12 @@ Component {
                         active: isToday
                         visible: active
                         anchors.fill: parent
-                        sourceComponent: UbuntuShape {
-                            aspect: UbuntuShape.Flat
+                        sourceComponent: LomiriShape {
+                            aspect: LomiriShape.Flat
                             radius: "small"
                             color: dayNumber.color
 
-                            UbuntuShape {
+                            LomiriShape {
                                 // XXX: since we can't just colorize the shape border
                                 //      we need another one to fill the center with bg color
                                 id: currentDayShape
@@ -375,9 +375,9 @@ Component {
                         y: dayNumber.height + (parent.height - dayNumber.height) / 2 - priv.todayRingThickness
                         anchors.horizontalCenter: parent.horizontalCenter
 
-                        sourceComponent: UbuntuShape {
+                        sourceComponent: LomiriShape {
                             objectName: "eventMarker"+index
-                            aspect: UbuntuShape.Flat
+                            aspect: LomiriShape.Flat
                             radius: "small"
                             color: isSelected ? dayNumber.color : theme.palette.selected.baseText
                         }

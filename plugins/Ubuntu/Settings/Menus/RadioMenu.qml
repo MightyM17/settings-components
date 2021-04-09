@@ -18,7 +18,7 @@
  */
 
 import QtQuick 2.4
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 
 BaseLayoutMenu {
     id: menu
@@ -68,8 +68,8 @@ BaseLayoutMenu {
             radius: width/2
             color: menu.foregroundColor
             opacity: visible ? 1.0 : 0.0
-            Behavior on opacity { UbuntuNumberAnimation {} }
-            Behavior on width { UbuntuNumberAnimation {} }
+            Behavior on opacity { LomiriNumberAnimation {} }
+            Behavior on width { LomiriNumberAnimation {} }
         }
     }
 }

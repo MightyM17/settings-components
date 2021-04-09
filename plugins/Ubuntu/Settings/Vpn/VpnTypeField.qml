@@ -16,8 +16,8 @@
 
 import QtQuick 2.4
 import QtQuick.Layouts 1.1
-import Ubuntu.Components 1.3
-import Ubuntu.Components.ListItems 1.3 as ListItems
+import Lomiri.Components 1.3
+import Lomiri.Components.ListItems 1.3 as ListItems
 
 RowLayout {
     spacing: units.gu(1)

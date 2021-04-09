@@ -15,11 +15,11 @@
  */
 
 import QtQuick 2.4
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 
-/* FIXME: This component is duplicating the UbuntuShape from the SDK, but shapes more
+/* FIXME: This component is duplicating the LomiriShape from the SDK, but shapes more
  * general (Item-based) components. This ability should be incorporated into the SDK's
- * UbuntuShape so this file can be removed.
+ * LomiriShape so this file can be removed.
  * Bug: https://bugs.launchpad.net/tavastia/+bug/1089595
  */
 Item {
@@ -32,10 +32,10 @@ Item {
         hideSource: true
     }
 
-    UbuntuShape {
+    LomiriShape {
         id: shape
         source: shaderEffectSource
         anchors.fill: parent
-        sourceFillMode: UbuntuShape.PreserveAspectCrop
+        sourceFillMode: LomiriShape.PreserveAspectCrop
     }
 }

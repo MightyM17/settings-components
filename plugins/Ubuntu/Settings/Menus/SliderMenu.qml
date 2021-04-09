@@ -18,7 +18,7 @@
  */
 
 import QtQuick 2.4
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 
 BaseMenu {
     id: menu
@@ -132,7 +132,7 @@ BaseMenu {
                 minimumValue: 0
                 maximumValue: 100
 
-                // FIXME - to be deprecated in Ubuntu.Components.
+                // FIXME - to be deprecated in Lomiri.Components.
                 // Use this to disable the label, since there is not way to do it on the component.
                 function formatValue(v) {
                     return "";

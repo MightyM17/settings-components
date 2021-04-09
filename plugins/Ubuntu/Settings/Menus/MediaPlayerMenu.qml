@@ -18,7 +18,7 @@
  */
 
 import QtQuick 2.4
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import Ubuntu.Thumbnailer 0.1
 
 BaseLayoutMenu {
@@ -35,7 +35,7 @@ BaseLayoutMenu {
 
     highlightWhenPressed: false
     menuHeight: albumLayout.visible ? albumLayout.height : layout.height
-    Behavior on menuHeight { UbuntuNumberAnimation {} }
+    Behavior on menuHeight { LomiriNumberAnimation {} }
 
     layout.visible: !albumLayout.visible
     layout.objectName: "player"
@@ -68,7 +68,7 @@ BaseLayoutMenu {
         summary.text: menu.album
         summary.font.pixelSize: menuStyle.subtitleFontSize
 
-        UbuntuShape {
+        LomiriShape {
             width: units.gu(7)
             height: width
             SlotsLayout.position: SlotsLayout.Leading

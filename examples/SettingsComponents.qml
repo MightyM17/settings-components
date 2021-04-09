@@ -17,7 +17,7 @@
  */
 
 import QtQuick 2.4
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import Ubuntu.Settings.Components 0.1
 import Ubuntu.Settings.Menus 0.1
 
@@ -32,7 +32,7 @@ MainView {
     property bool pointerMode: true
 
     Component.onCompleted: {
-        theme.name = "Ubuntu.Components.Themes.SuruDark"
+        theme.name = "Lomiri.Components.Themes.SuruDark"
     }
 
     ListModel {
@@ -57,14 +57,14 @@ MainView {
                 Action {
                     text: i18n.tr('Use dark theme')
                     iconName: 'torch-on'
-                    visible: theme.name == 'Ubuntu.Components.Themes.Ambiance'
-                    onTriggered: theme.name = 'Ubuntu.Components.Themes.SuruDark'
+                    visible: theme.name == 'Lomiri.Components.Themes.Ambiance'
+                    onTriggered: theme.name = 'Lomiri.Components.Themes.SuruDark'
                 },
                 Action {
                     text: i18n.tr('Use light theme')
                     iconName: 'torch-off'
-                    visible: theme.name == 'Ubuntu.Components.Themes.SuruDark'
-                    onTriggered: theme.name = 'Ubuntu.Components.Themes.Ambiance'
+                    visible: theme.name == 'Lomiri.Components.Themes.SuruDark'
+                    onTriggered: theme.name = 'Lomiri.Components.Themes.Ambiance'
                 }
             ]
         }

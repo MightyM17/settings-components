@@ -222,7 +222,7 @@ ubuntu-settings-components (0.7+16.04.20160302-0ubuntu1) xenial; urgency=medium
   * Moved ModemItem class here from unity8
 
   [ Albert Astals Cid ]
-  * Standarize QtQuick and Ubuntu.Components.Listitems imports
+  * Standarize QtQuick and Lomiri.Components.Listitems imports
 
  -- Zoltan Balogh <zoltan.balogh@canonical.com>  Wed, 02 Mar 2016 21:39:36 +0000
 
@@ -259,7 +259,7 @@ ubuntu-settings-components (0.6+15.10.20150915-0ubuntu1) wily; urgency=medium
   * Use the standalone month name for the calendar caption
 
   [ Nick Dedekind ]
-  * Crop icons to aspect ratio inside UbuntuShapes. (LP: #1450229)
+  * Crop icons to aspect ratio inside LomiriShapes. (LP: #1450229)
 
  -- Nick Dedekind <ci-train-bot@canonical.com>  Tue, 15 Sep 2015 09:42:35 +0000
 

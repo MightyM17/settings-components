@@ -19,7 +19,7 @@
  */
 
 import QtQuick 2.4
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 
 StandardMenu {
     id: menu
@@ -31,7 +31,7 @@ StandardMenu {
     iconSource: Qt.resolvedUrl("image://theme/message")
 
     slots: [
-        UbuntuShape {
+        LomiriShape {
             implicitHeight: label.implicitHeight + units.gu(2)
             implicitWidth: label.implicitWidth + units.gu(2)
 

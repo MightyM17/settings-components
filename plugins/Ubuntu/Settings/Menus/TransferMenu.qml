@@ -18,7 +18,7 @@
 
 import QtQuick 2.4
 import QtQuick.Layouts 1.1
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import Ubuntu.Settings.Components 0.1
 
 BaseMenu {
@@ -41,7 +41,7 @@ BaseMenu {
         objectName: "transferMenuSlotsLayout"
         style: menuStyle
 
-        UbuntuShape {
+        LomiriShape {
             SlotsLayout.position: SlotsLayout.Leading
             width: menuStyle.avatarSize
             height: width

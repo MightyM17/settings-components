@@ -20,7 +20,7 @@ import QtQuick 2.4
 import QtTest 1.0
 import Ubuntu.Test 0.1
 import Ubuntu.Settings.Fingerprint 0.1
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import Biometryd 0.0
 import GSettings 1.0
 

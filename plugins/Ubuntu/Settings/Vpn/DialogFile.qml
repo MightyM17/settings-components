@@ -16,8 +16,8 @@
 
 import QtQuick 2.4
 import QtQuick.Layouts 1.1
-import Ubuntu.Components 1.3
-import Ubuntu.Components.Popups 1.3
+import Lomiri.Components 1.3
+import Lomiri.Components.Popups 1.3
 import Ubuntu.Settings.Vpn 0.1
 import Qt.labs.folderlistmodel 2.1
 
